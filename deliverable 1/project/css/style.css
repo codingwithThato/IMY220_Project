@@ -1,0 +1,81 @@
+/* Thato Kalagobe u21487279 */
+
+
+/* headings */
+h2, h3 {
+	font-family: 'Gilda Display', sans-serif;
+	/* letter-spacing: 5px; */
+    font-size: 2em;
+    color: white;
+}
+
+h1{
+    color: white;
+    font-size: 3em;
+    letter-spacing: 4px;
+	font-family: 'Gilda Display', sans-serif;
+}
+
+/* navbar */
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.4s linear;
+}
+
+.ul:hover .li:not(:hover) a { 
+    color: rgb(107, 105, 105);
+}
+
+.navbar {
+    color: white;
+}
+
+/* body */
+body {
+    /* font-family: Suranna, serif; */
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1em;
+    word-spacing: 5px;
+	background-image: url('../images/bg.JPG');
+    /* background-repeat: no-repeat; */
+	/* background-size: cover; */
+    /* background-color: rgb(48, 48, 48); */
+}
+
+/* footer */
+footer {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    height: 60px; 
+    text-align: center;
+}
+
+
+/* ***************************************************************************** */
+/* *************************** SIGNUP + LOGIN PAGE ***************************************/
+
+.body {
+    background-image: none;
+    background-color: #cacaca;
+    display: flex;
+    align-items: center;
+}
+
+/* the big container w everything */
+.before-index {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column; 
+}
+
+/* styling the card itself */
+.cardh{
+    background-color: #a2866d;
+}
+
+
