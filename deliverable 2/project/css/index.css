@@ -41,6 +41,15 @@ form {
     color: white;
 }
 
+.btn {
+    border-radius: 0.5%;
+    -webkit-border-radius: 0.5%;
+    -moz-border-radius: 0.5%;
+    -ms-border-radius: 0.5%;
+    -o-border-radius: 0.5%;
+}
+
+
 /* the parallax scrolling functionality */
 
   

@@ -10,5 +10,4 @@ User Two:
 
 ## Things still to be implemented as part of my main design for my website: 
     - Parallax scrolling effect
-    - profile page
     - explore page

@@ -1,5 +1,42 @@
 /* Thato Kalagobe u21487279 */
 
+/* edit button */
+.editing {
+    color: white;
+    width: 14%;
+    font-size: 1.2em;
+    /* font-family: 'Gilda Display'; */
+}
+
+.editing:hover {
+    color: black;
+}
+
+/* progress bar */
+#progress-bar-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10px;
+    background-color: #0000001e;
+    z-index: 9999;
+ }
+ 
+#progress-bar {
+    position: fixed;
+    top: 0;
+    width: 0%;
+    height: 10px;
+    background-color: #ddc1a8; /*lighter vibe*/
+    /*background-color: #5c4e43;*/ /*darker vibe*/
+    z-index: 10000;
+  }
+
+/* slider thingy */
+  .slider { display: flex; align-items: center; margin-bottom: 7px;}
+  /* .slider label {font-size: 24px;font-weight: 400;padding-left: 10px;color: black;} */
+  .slider input[type="range"] {width: 420px;height: 2px;background: black;border: none;outline: none;} 
 
 /* headings */
 h2, h3 {
@@ -38,10 +75,12 @@ body {
     font-size: 1em;
     word-spacing: 5px;
 	background-image: url('../images/bg.JPG');
+    
     /* background-repeat: no-repeat; */
 	/* background-size: cover; */
     /* background-color: rgb(48, 48, 48); */
 }
+
 
 /* footer */
 footer {
@@ -78,4 +117,22 @@ footer {
     background-color: #a2866d;
 }
 
+/* Increase padding for form controls
+.form-control {
+    padding: 10px;
+  }
+   */
+
+#p {
+    color: white;
+}
+
+.p {
+    color: white;
+}
+
+#ul {
+    color:white;
+    list-style-type: none;
+}
 

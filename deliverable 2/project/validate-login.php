@@ -38,6 +38,9 @@
                 $surname = $row['surname'];
                 $_SESSION['surname'] = $surname;
                 
+                $user_id = $row['id'];
+                $_SESSION['id'] = $user_id;
+
                 header("Location: index.php");
                 exit();
             }
