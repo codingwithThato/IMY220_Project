@@ -1,0 +1,11 @@
+body {
+    /* font-family: 'Prata', serif; */
+    word-spacing: normal;
+}
+
+.logo {
+    display: flex;
+    /* margin-left: auto; */
+    /* justify-self:center; */
+    align-self: center;
+}
