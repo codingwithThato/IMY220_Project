@@ -29,7 +29,7 @@
     if(strlen($password) < 8) die("Password must be at least 8 characters long.");
 
     //hashing the password!!
-    $hashPass = password_hash($password, PASSWORD_DEFAULT); //why this hashing alg ? creates random salts by itself! but look it up.
+    // $hashPass = password_hash($password, PASSWORD_DEFAULT); //why this hashing alg ? creates random salts by itself! but look it up.
 
     // Check connection
     if ($conn->connect_error) {
@@ -47,7 +47,7 @@
     $query = "INSERT INTO users (name, surname, username, email, password, contact) VALUES (?, ?, ?, ?, ?, ?)";
 
     $stmt = $conn->prepare($query);
-    $stmt->bind_param("ssssss", $name, $surname, $username, $email, $hashPass, $contact);
+    $stmt->bind_param("ssssss", $name, $surname, $username, $email, $password, $contact);
 
     // Execute the query
     if ($stmt->execute()) {

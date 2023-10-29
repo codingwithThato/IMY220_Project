@@ -1,5 +1,8 @@
 ## Default Login details:
 
+ADMIN user: 
+    Username: admin
+    Password: Test1234!
 User One:
     Username: gojosatoru
     Password: thatoLovesG0j0!

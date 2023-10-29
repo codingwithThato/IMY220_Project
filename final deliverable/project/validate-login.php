@@ -15,10 +15,9 @@
         $stmt->execute();
         $result = $stmt->get_result();
         $row = $result->fetch_assoc();
-        $hashed_password = $row['password'];
 
         //Compare hashed password with input password
-        if (password_verify($passwordField, $hashed_password)){
+        if ($passwordField == $row['password']){
             //Prepare a SELECT statement to check if the user exists
             $stmt = $conn->prepare("SELECT * FROM users WHERE username=?");
             $stmt->bind_param("s", $userid);

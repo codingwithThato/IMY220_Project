@@ -1,5 +1,10 @@
 /* Thato Kalagobe u21487279 */
 
+/* profile page notifs */
+#notification { display: none; }
+#notificationUn { display: none; }
+#sending { display: none; }
+
 /* edit button */
 .editing {
     color: white;
