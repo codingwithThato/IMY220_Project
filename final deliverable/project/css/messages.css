@@ -1,0 +1,9 @@
+div.col div {
+    height: 50px;
+}
+
+div.col-4 {
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
+    padding: 10px;
+}
+
